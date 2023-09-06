@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+
+body div.top-container {
+    margin: auto;
+    height: 100px;
+    width: 80%;
+    top: 0;
+    left: 0;
+    border-bottom: 2px solid white;;
+}
+
+body div.mid-container {
+    border-bottom: 2px solid white;
+    height: auto;
+    width: 80%;
+    margin: auto;
+}
+
+body div.lower-container {
+    color: white;
+    height: auto;
+    width: 80%;
+    margin: auto;
+}
+
+body div.top-container .title {
+    font-size: 55px;
+    color: white;
+    text-align: center;
+}
+
+body div.mid-container .mid-text {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+body div.lower-container .subtitle {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+body div.lower-container .subtext {
+    font-size: 15px;
+    color: white;
+    text-align: center;    
+}

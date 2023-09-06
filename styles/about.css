@@ -1,0 +1,331 @@
+/* Main */
+body {
+    background-color: black;
+	background: linear-gradient(-45deg, #401191, #3c186c, #3e0957, #2d0c52);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Muli, sans-serif;
+    overflow-x: hidden;
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/* Banner */
+
+body div.banner div.mid-banner {
+    display: block;
+    width: 100vw;
+    height: 150px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body div.banner div.mid-banner ul {
+    height: 150px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+body div.banner div.mid-banner ul li {
+    font-size: 70px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 15px 0 35px;
+    letter-spacing: 4px;
+    transition: all 0.3s ease;
+}
+
+
+body div.banner div.mid-banner ul li img {
+    width: 150px;
+    height: 150px;
+    transition: all 0.3s ease;
+}
+
+
+/* nav */
+body div.banner div.nav {
+    display: block;
+    width: 100vw;
+    height: 5rem;
+    background: rgba(76, 76, 76, 0.23);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4.9px);
+    -webkit-backdrop-filter: blur(4.9px);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body div.banner div.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s ease;
+}
+
+body div.banner div.nav ul li {
+    font-size: 25px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 35px 0 35px;
+    transition: all 0.3s ease;
+}
+
+body div.banner div.nav ul li a {
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    transition: all 0.3s ease;
+}
+
+body div.banner div.nav ul li a:hover {
+    font-size: 22px;
+    color: rgb(170, 33, 205);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+body div.banner {
+    position: relative;
+    padding-top: 15px;
+    background-image: url("banner.png");
+    width: 100vw;
+    height: 275px;
+    top: 0;
+    left: 0;
+}
+
+/* icons */
+body div.banner div.icon-container {
+    padding-bottom: 10px;
+    height: 4vh;
+    width: 90%;
+    border-bottom: 1px solid #ffffff;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+body div.banner div.icon-container ul {
+    margin: 0;
+    transition: all 0.3s ease;
+}
+
+body div.banner div.icon-container ul li {
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+body div.banner div.icon-container ul li a img.icon {
+    width: 30px;
+    margin: 0 7px 0 0;
+    opacity: 50%;
+    transition: ease all 0.5s;
+}
+
+
+body div.banner div.icon-container ul li a:hover img.icon {
+    opacity: 100%;
+    transition: ease all 0.5s;
+}
+
+body div.banner div.icon-container div.top-icon{
+    height: 7rem;
+    width: 7rem;
+    transition: all 0.3s ease;
+}
+
+/* Middle */
+
+body div.glass-background-container {
+    padding: 10px 10px 0px 10px;
+    margin-top: 25px;
+    margin-left: 25px;
+    width: 655px;
+    height: 32rem;
+    background: rgba(255, 255, 255, 0.13);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.9px);
+    -webkit-backdrop-filter: blur(4.9px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: all 0.15s ease-in-out
+}
+
+body div.video-container {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+body div.video-container div.title-text {
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+body div.video-container div.glass-background-container iframe{
+    visibility: visible;
+}
+
+body div.video-container div.glass-background-container a { 
+    visibility: collapse;
+    font-size: 25px;
+    color: rgb(181, 149, 255);
+}
+
+/* Lower Container */
+
+body div.lower-container:not(div.title-box) {
+    width: 90vw;
+    margin: auto;
+    height: 550px;
+    background: rgba(76, 76, 76, 0.23);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4.9px);
+    -webkit-backdrop-filter: blur(4.9px);
+
+    font-size: 25px;
+    color: white;
+    padding: 0 15px 15px 15px;
+}
+
+body div.lower-container div.title-box {
+    width: 100%;
+    height: 100px;
+    font-size: 85px;
+    color: white;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+
+/* Mobile Responsiveness */
+
+@media all and (min-width:1101px) and (max-width: 1600px) {
+    body div.banner div.nav ul li a {
+        font-size: 22px;
+    }
+
+}
+
+@media all and (min-width:960px) and (max-width: 1100px) {
+    body div.banner div.nav ul li a {
+        font-size: 22px;
+    }
+
+}
+
+@media all and (min-width:801px) and (max-width: 959px) {
+    body div.banner div.nav ul li a {
+        font-size: 22px;
+    }
+
+}
+
+@media all and (min-width:869px) and (max-width: 800px) {
+    body div.banner div.nav ul li a {
+        font-size: 22px;
+    }
+    
+
+}
+
+@media all and (min-width:569px) and (max-width: 868px) {
+    body div.banner div.nav ul li a {
+        font-size: 22px;
+    }
+    body div.banner div.mid-banner ul li {
+        font-size: 55px;
+        margin: 0 10px 0 5px;
+    }
+    body div.banner div.mid-banner ul li img {
+        width: 150px;
+        height: 150px;
+    }    
+    body div.banner div.nav ul li a:hover {
+        font-size: 22px;
+    }
+}
+
+@media all and (min-width:481px) and (max-width: 568px) {
+    body div.banner div.nav ul li a {
+        font-size: 22px;
+    }
+    body div.banner div.mid-banner ul li {
+        font-size: 45px;
+        margin: 0 10px 0 5px;
+    }
+    body div.banner div.mid-banner ul li img {
+        width: 125px;
+        height: 125px;
+    }    
+    body div.banner div.nav ul li a:hover {
+        font-size: 22px;
+    }
+    
+}
+
+@media all and (min-width:391px) and (max-width: 480px) {
+    body div.banner div.nav ul li a {
+        font-size: 11px;
+    }
+    body div.banner div.mid-banner ul li {
+        font-size: 40px;
+        margin: 0 15px 0 05px;
+    }
+    body div.banner div.mid-banner ul li img {
+        width: 100px;
+        height: 100px;
+    }
+    body div.banner div.nav ul li a:hover {
+        font-size: 11px;
+    }
+}
+
+@media all and (min-width:0px) and (max-width: 390px) {
+    body div.banner div.nav ul li a {
+        font-size: 9px;
+    }
+    body div.banner div.mid-banner ul li {
+        font-size: 40px;
+        margin: 0 15px 0 05px;
+    }
+    body div.banner div.mid-banner ul li img {
+        display: none;
+    }
+    body div.banner div.nav ul li a:hover {
+        font-size: 9px;
+    } 
+}
